@@ -11,6 +11,5 @@
     node {
       sh 'terraform init'
       sh 'terraform plan -out=plan'
-      //sh 'terraform apply plan'
     }
   }
